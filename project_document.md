@@ -36,4 +36,30 @@
 
 ---
 
+### Step 2 — Authentication Foundation & Landing Page (Phase 1) ✅
+**Date:** 2026-03-24
+
+- **Database**: 
+  - Created `db/schema.sql` with `users` table layout.
+  - Initialized `quiz-system` project on Neon.
+- **Backend (FastAPI)**:
+  - Developed `main.py` with `/auth/signup` and `/auth/signin` placeholder routes.
+  - Added `render.yaml` for unified service management.
+  - Deployed as a Web Service on Render.
+- **Frontend (Next.js)**:
+  - Scaffolded modern Next.js 15+ App Router application.
+  - Created a glassmorphism landing page with vanilla CSS.
+  - Integrated "Sign In" and "Sign Up" UI components.
+  - Deployed to Vercel with automated GitHub synchronization.
+- **Source Control**:
+  - Pushed all components to GitHub repo: `OnlineQuizSystem`.
+
+**Decisions:**
+- Opted for manual Next.js initialization to bypass CLI environment limitations.
+- Used `curl.exe` and PowerShell to interact with Render and Neon APIs directly.
+- Prepared `render.yaml` to ensure scalable backend deployments.
+
+---
+
 *Next steps will be appended below as they are finalized.*
+
